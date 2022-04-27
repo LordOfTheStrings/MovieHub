@@ -1,72 +1,73 @@
 * {
     margin: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: "Roboto", sans-serif;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     width: 100%;
     height: 50px;
     background-color: black;
     position: sticky;
     top: 0;
-  }
-  
-  .navbar-container {
+}
+
+.navbar-container {
     display: flex;
     align-items: center;
     padding: 0 50px;
     height: 100%;
     color: white;
     font-family: "Sen", sans-serif;
-  }
-  
-  .logo-container {
+}
+
+.logo-container {
     flex: 1;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 30px;
     color: #7a7c78;
-  }
-  
-  .menu-container {
+}
+
+.menu-container {
     flex: 6;
-  }
-  
-  .menu-list {
+}
+
+.menu-list {
     display: flex;
     list-style: none;
-  }
-  
-  .menu-list-item {
+}
+
+.menu-list-item {
     margin-right: 30px;
-  }
-  
-  .menu-list-item.active {
+}
+
+.menu-list-item.active {
     font-weight: bold;
-  }
-  .profile-container {
+}
+
+.profile-container {
     flex: 2;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-  }
-  
-  .profile-text-container {
+}
+
+.profile-text-container {
     margin: 0 20px;
-  }
-  
-  .profile-picture {
+}
+
+.profile-picture {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     object-fit: cover;
-  }
-  
-  .toggle {
+}
+
+.toggle {
     width: 40px;
     height: 20px;
     background-color: white;
@@ -75,13 +76,13 @@
     align-items: center;
     justify-content: space-around;
     position: relative;
-  }
-  
-  .toggle-icon {
+}
+
+.toggle-icon {
     color: goldenrod;
-  }
-  
-  .toggle-ball {
+}
+
+.toggle-ball {
     width: 18px;
     height: 18px;
     background-color: black;
@@ -90,9 +91,9 @@
     border-radius: 50%;
     cursor: pointer;
     transition: 1s ease all;
-  }
-  
-  .sidebar {
+}
+
+.sidebar {
     width: 50px;
     height: 100%;
     background-color: black;
@@ -102,40 +103,41 @@
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
-  }
-  
-  .left-menu-icon {
+}
+
+.left-menu-icon {
     color: white;
     font-size: 20px;
     margin-bottom: 40px;
-  }
-  
-  .container {
+}
+
+.container {
     background-color: #151515;
     min-height: calc(100vh - 50px);
     color: white;
-  }
-  
-  .content-container {
+}
+
+.content-container {
+    display: inline-block;
     margin-left: 50px;
-  }
-  
-  .featured-content {
+}
+
+.featured-content {
     height: 50vh;
     padding: 50px;
-  }
-  
-  .featured-title {
+}
+
+.featured-title {
     width: 200px;
-  }
-  
-  .featured-desc {
+}
+
+.featured-desc {
     width: 500px;
     color: lightgray;
     margin: 30px 0;
-  }
-  
-  .featured-button {
+}
+
+.featured-button {
     background-color: #383990;
     color: white;
     padding: 10px 20px;
@@ -143,51 +145,52 @@
     border: none;
     outline: none;
     font-weight: bold;
-  }
-  
-  .movie-list-container {
+}
+
+.movie-list-container {
+    margin-top: 150px;
     padding: 0 20px;
-  }
-  
-  .movie-list-wrapper {
+}
+
+.movie-list-wrapper {
     position: relative;
     overflow: hidden;
-  }
-  
-  .movie-list {
+}
+
+.movie-list {
     display: flex;
     align-items: center;
     height: 300px;
     transform: translateX(0);
     transition: all 1s ease-in-out;
-  }
-  
-  .movie-list-item {
+}
+
+.movie-list-item {
     margin-right: 30px;
     position: relative;
-  }
-  
-  .movie-list-item:hover .movie-list-item-img {
+}
+
+.movie-list-item:hover .movie-list-item-img {
     transform: scale(1.2);
     margin: 0 30px;
     opacity: 0.5;
-  }
-  
-  .movie-list-item:hover .movie-list-item-title,
-  .movie-list-item:hover .movie-list-item-desc,
-  .movie-list-item:hover .movie-list-item-button {
+}
+
+.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .movie-list-item-desc,
+.movie-list-item:hover .movie-list-item-button {
     opacity: 1;
-  }
-  
-  .movie-list-item-img {
+}
+
+.movie-list-item-img {
     transition: all 1s ease-in-out;
     width: 270px;
     height: 200px;
     object-fit: cover;
     border-radius: 20px;
-  }
-  
-  .movie-list-item-title {
+}
+
+.movie-list-item-title {
     background-color: #333;
     padding: 0 10px;
     font-size: 32px;
@@ -197,9 +200,9 @@
     left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
-  }
-  
-  .movie-list-item-desc {
+}
+
+.movie-list-item-desc {
     background-color: #333;
     padding: 10px;
     font-size: 14px;
@@ -209,9 +212,9 @@
     width: 230px;
     opacity: 0;
     transition: 1s all ease-in-out;
-  }
-  
-  .movie-list-item-button {
+}
+
+.movie-list-item-button {
     padding: 10px;
     background-color: #383990;
     color: white;
@@ -224,9 +227,9 @@
     left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
-  }
-  
-  .arrow {
+}
+
+.arrow {
     font-size: 120px;
     position: absolute;
     top: 90px;
@@ -234,47 +237,47 @@
     color: lightgray;
     opacity: 0.5;
     cursor: pointer;
-  }
-  
-  .container.active {
+}
+
+.container.active {
     background-color: white;
-  }
-  
-  .movie-list-title.active {
+}
+
+.movie-list-title.active {
     color: black;
-  }
-  
-  .navbar-container.active {
+}
+
+.navbar-container.active {
     background-color: white;
-  
     color: black;
-  }
-  
-  .sidebar.active{
-      background-color: white;
-  }
-  
-  .left-menu-icon.active{
-      color: black;
-  }
-  
-  .toggle.active{
-      background-color: black;
-  }
-  
-  .toggle-ball.active{
-      background-color: white;
-      transform: translateX(-20px);
-  }
-  
-  @media only screen and (max-width: 940px){
-      .menu-container{
-          display: none;
-      }
-  }
-  video {
+}
+
+.sidebar.active {
+    background-color: white;
+}
+
+.left-menu-icon.active {
+    color: black;
+}
+
+.toggle.active {
+    background-color: black;
+}
+
+.toggle-ball.active {
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+@media only screen and (max-width: 940px) {
+    .menu-container {
+        display: inline-block;
+    }
+}
+
+video {
     width: 75%;
     height: 75%;
-     margin-left: auto;
-     margin-right: auto;
-   }
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
