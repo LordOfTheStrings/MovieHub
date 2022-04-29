@@ -50,7 +50,7 @@
                     <img class="featured-title " src="img/f-t-1.jpg " alt=" ">
                     <p class="featured-desc ">Description Description Description Description Description Description Description Description Description
                     </p>
-                    <a href="featuredMovie.html" class="featured-button" role="button">Watch</a>
+                    <a href="player.php?movie=Avengers" class="featured-button" role="button">Watch</a>
                     <!--<button href="featuredMovie.html " class="featured-button ">Watch</button>-->
                 </div>
             </div>
@@ -66,7 +66,7 @@
                                 selects basketball for the surest chance of winning. However, the Nerdlucks turn the tables and steal the talents of leading professional basketball stars to become massive basketball bruisers known as the Monstars. In
                                 desperation, Bugs Bunny calls on the aid of Michael Jordan, the Babe Ruth of basketball, to help them have a chance at winning their freedom.</p>
                             <button class="movie-list-item-button ">Watch</button>
-                            <a href="spaceJam.html " class="movie-list-item-button ">Watch</a>
+                            <a href="player.php?movie=SpaceJam" class="movie-list-item-button ">Watch</a>
                         </div>
                         <div class="movie-list-item ">
                             <img class="movie-list-item-img " src="img/2.jpeg " alt=" ">
@@ -74,7 +74,7 @@
                             <p class="movie-list-item-desc ">Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious
                                 Darth Vader.</p>
                             <button class="movie-list-item-button ">Watch</button>
-                            <a href="starWars.html " class="movie-list-item-button ">Watch</a>
+                            <a href="player.php?movie=StarWars" class="movie-list-item-button ">Watch</a>
                         </div>
                         <div class="movie-list-item ">
                             <img class="movie-list-item-img " src="img/3.jpeg " alt=" ">
@@ -83,7 +83,7 @@
                                 own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth
                                 about his parents' mysterious deaths.</p>
                             <button class=" movie-list-item-button ">Watch</button>
-                            <a href="harryPotter.html " class="movie-list-item-button ">Watch</a>
+                            <a href="player.php?movie=HarryPotter" class="movie-list-item-button ">Watch</a>
                         </div>
                         <div class="movie-list-item ">
                             <img class="movie-list-item-img " src="img/4.jpeg " alt=" ">
@@ -91,7 +91,7 @@
                             <p class="movie-list-item-desc ">The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins
                                 (Elijah Wood), who inherits the Ring and steps into legend. A daunting task lies ahead for Frodo when he becomes the Ringbearer - to destroy the One Ring in the fires of Mount Doom where it was forged.</p>
                             <button class="movie-list-item-button ">Watch</button>
-                            <a href="rings.html " class="movie-list-item-button ">Watch</a>
+                            <a href="player.php?movie=Rings" class="movie-list-item-button ">Watch</a>
                         </div>
                         <div class="movie-list-item ">
                             <img class="movie-list-item-img " src="img/5.jpeg " alt=" ">
@@ -100,7 +100,7 @@
                                 to defeat the unprecedented threat to Earth. Joining Fury's "dream team " are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson)
                                 and Hawkeye (Jeremy Renner).</p>
                             <button class="movie-list-item-button ">Watch</button>
-                            <a href="avengers.html " class="movie-list-item-button ">Watch</a>
+                            <a href="player.php?movie=Avengers" class="movie-list-item-button ">Watch</a>
                         </div>
                         <div class=" movie-list-item ">
                             <img class="movie-list-item-img " src="img/6.jpeg " alt=" ">
@@ -131,7 +131,7 @@
         <a href="https://twitter.com/home?lang=en "><i class="fa fa-twitter "></i></a>
         <a href="www.linkedin.com "><i class="fa fa-linkedin "></i></a>
         <p class="w3-medium ">
-            Powered by <a href="index.html ">Movie Hub</a>
+            Powered by <a href="index.php ">Movie Hub</a>
         </p>
         <script src="script.js "></script>
 </body>
