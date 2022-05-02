@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,17 +22,17 @@
             <div class="menu-container">
                 <ul class="menu-list">
                     <a href="index.php" class="menu-list-item">Home</a>
-                    <a href="movies.html" class="menu-list-item" role="button">Movies</a>
-                    <a href="series.html" class="menu-list-item" role="button">Series</a>
-                    <a href="popular.html" class="menu-list-item" role="button">Popular</a>
-                    <a href="trends.html" class="menu-list-item" role="button">Trends</a>
+                    <a href="movies.php" class="menu-list-item" role="button">Movies</a>
+                    <a href="series.php" class="menu-list-item" role="button">Series</a>
+                    <a href="popular.php" class="menu-list-item" role="button">Popular</a>
+                    <a href="trends.php" class="menu-list-item" role="button">Trends</a>
 
                 </ul>
             </div>
             <div class="profile-container">
                 <img class="profile-picture" src="img/profile.jpg" alt="" >
                 <div class="profile-text-container">
-                    <a href="Profile.html" class="profile-text" role="button">Profile</a>
+                    <a href="Profile.php" class="profile-text" role="button"><?php echo $_SESSION["username"]; ?></a>
                     <i class="fas fa-caret-down"></i>
                 </div>
                 <div class="toggle">
@@ -51,7 +52,6 @@
                     <p class="featured-desc ">Description Description Description Description Description Description Description Description Description
                     </p>
                     <a href="player.php?movie=Avengers" class="featured-button" role="button">Watch</a>
-                    <!--<button href="featuredMovie.html " class="featured-button ">Watch</button>-->
                 </div>
             </div>
             <div class="movie-list-container ">
